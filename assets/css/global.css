@@ -35,6 +35,17 @@ header{
     line-height: normal;
 }
 
+.pages ul li::after {
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: #08d3bb;
+    content: "";
+    position: absolute;
+    left: -9px;
+    top: -2px;
+  }
+
 .pages ul li a{
     color: #000;
 
