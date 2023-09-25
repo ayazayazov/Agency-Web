@@ -54,6 +54,7 @@
 }
 
 .info-buttons button:first-child{
+  cursor: pointer;
   border: none;
   border-radius: 10px;
   background: #1090CB;
@@ -67,6 +68,7 @@
 }
 
 .info-buttons button:last-child{
+  cursor: pointer;
   border-radius: 10px;
   border: 1px solid #1090CB;
   background: #FFF;
@@ -415,6 +417,7 @@
 }
 
 .lorem-card-l button{
+  cursor: pointer;
   border: none;
   border-radius: 10px;
   background: #1090CB;
@@ -451,6 +454,7 @@
 }
 
 .lorem-card-r button{
+  cursor: pointer;
   border: none;
   border-radius: 10px;
   background: #FFF;
@@ -485,4 +489,71 @@
   display: flex;
   justify-content: space-between;
   margin-top: 12px;
+}
+
+.email-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  padding: 148px 360px;
+  background: #E8F4FA;
+  position: relative;
+}
+
+.email-list p{
+  color: #252525;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 170%; /* 51px */
+}
+
+.email-list form{
+  display: flex;
+  gap: 14px;
+}
+
+.email-list form input{
+  color: #787878;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%; /* 27.2px */
+  padding-left: 36px;
+  width: 532px;
+  border-radius: 10px;
+  background: #FFF;
+  border: none;
+  box-shadow: 0px 4px 84px 0px rgba(0, 0, 0, 0.07);
+}
+
+.email-list form button{
+  cursor: pointer;
+  padding: 20px 44px;
+  border: none;
+  border-radius: 10px;
+  background: #000;
+  color: #FFF4F4;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%; /* 27.2px */
+}
+
+.star1{
+  top: -44px;
+  left: 167px;
+  position: absolute;
+}
+
+.email-list img:last-child{
+  top: 94px;
+  right: 397px;
+  position: absolute;
 }
