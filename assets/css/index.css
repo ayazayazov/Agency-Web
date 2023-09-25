@@ -340,7 +340,7 @@
   display: flex;
   padding: 0 123px;
   gap: 180px;
-  margin-bottom: 86px;
+  margin-bottom: 248px;
   /* position: relative; */
 }
 
@@ -362,4 +362,127 @@
 
 .happy3 img{
   width: 26px;
+}
+
+.lorem-cards{
+  display: flex;
+  gap: 50px;
+  padding: 0 122px;
+  margin-bottom: 184px;
+}
+
+.lorem-card-l{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 36px;
+  padding: 64px 48px 50px 48px;
+  border-radius: 20px;
+  background: #F4F4F4;
+}
+
+.lorem-card-r{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 36px;
+  padding: 64px 48px 50px 48px;
+  border-radius: 20px;
+  background: #1090CB;
+  position: relative;
+}
+
+.lorem-card-l-par{
+  width: 476px;
+  color: #545454;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%; /* 27.2px */
+}
+
+.lorem-card-l p:first-child{
+  width: 365px;
+  color: #252525;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 170%; /* 42.5px */
+}
+
+.lorem-card-l button{
+  border: none;
+  border-radius: 10px;
+  background: #1090CB;
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%; /* 27.2px */
+  padding: 11px 35px;
+}
+
+.lorem-card-r p:first-child{
+  width: 365px;
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 170%; /* 42.5px */
+}
+
+.lorem-card-r-par{
+  width: 476px;
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%; /* 27.2px */
+}
+
+.lorem-card-r button{
+  border: none;
+  border-radius: 10px;
+  background: #FFF;
+  color: #1090CB;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%; /* 27.2px */
+  padding: 11px 35px;
+}
+
+.lorem-card-r img{
+  position: absolute;
+  bottom: 381px;
+  right: 6px;
+}
+
+.companies-par{
+  text-align: center;
+  color: #000;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 159%; /* 38.16px */
+}
+
+.companies{
+  padding: 0 200px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
 }
