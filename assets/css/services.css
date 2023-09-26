@@ -5,3 +5,378 @@
 .pages ul li:nth-child(3) a {
     color: #1090cb;
 }
+
+main{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.our-services{
+  position: relative;
+  margin-bottom: 250px;
+  padding-top: 78px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  height: 635px;
+  width: 100%;
+  background: rgba(16, 144, 203, 0.10);
+}
+
+.succlent{
+  position: absolute;
+  top: 450px;
+  right: 148px;
+  z-index: 1;
+  transform: rotate(54deg);
+}
+
+.speaker{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 135px;
+  height: 135px;
+  border-radius: 67.5px;
+  background-color: #FFFFFF;
+}
+
+.speaker img{
+  width: 73px;
+  height: 73px;
+}
+
+.our-services h1{
+  color: #1090CB;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.our-services p{
+  width: 440px;
+  color: #696969;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 175%; /* 31.5px */
+}
+
+.services-card{
+  position: absolute;
+  margin: 0 120px;
+  top: 480px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  gap: 56px;
+  padding: 70px 0px;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0px 4px 124px 0px rgba(0, 0, 0, 0.10);
+}
+
+.card-l, .card-r{
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+}
+
+.lorem-card{
+  display: flex;
+  gap: 28px;
+  color: #2E0D64;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 177.9%; /* 44.475px */
+  letter-spacing: 0.25px;
+}
+
+.lorem-card p{
+  color: #797979;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 177.9%; /* 28.464px */
+  letter-spacing: 0.16px;
+}
+
+.img-box1, .img-box2, .img-box3, .img-box4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-box1{
+  width: 90px;
+  height: 90px;
+  border-radius: 20px;
+  background: #FFF2F2;
+}
+
+.img-box2{
+  width: 90px;
+  height: 90px;
+  border-radius: 20px;
+  background: #E2F3FF;
+}
+
+.img-box3{
+  width: 90px;
+  height: 90px;
+  border-radius: 20px;
+  background: #F1E8FF;
+}
+
+.img-box4{
+  width: 90px;
+  height: 90px;
+  border-radius: 20px;
+  background: #FFE7FB;
+}
+
+.lorem-card span{
+  width: 336px;
+}
+
+.lorem-section{
+  display: flex;
+  padding-left: 118px;
+  gap: 122px;
+  margin-bottom: 158px;
+}
+
+.illustration{
+  width: 573px;
+  object-fit: cover;
+}
+
+.lorem-text{
+  width: 476px;
+}
+
+.lorem-text h2{
+  margin-bottom: 56px;
+  color: #1090CB;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 170%; /* 51px */
+}
+
+.lorem-text h2 span{
+  color: #1090CB;
+}
+
+.lorem-text p{
+  color: #545454;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; /* 28.8px */
+}
+
+.lorem-text button{
+  padding: 10px 52px;
+  border-radius: 10px;
+  border: 1px solid #1090CB;
+  background: #FFF;
+  color: #1090CB;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 204.3%; /* 32.688px */
+}
+
+.stat{
+  background: #1090CB;
+  padding: 130px 0px;
+  display: flex;
+  justify-content: center;
+  gap: 160px;
+  margin-bottom: 140px;
+  position: relative;
+}
+
+.bell{
+  position: absolute;
+  bottom: 320px;
+  right: 154px;
+  z-index: 1;
+}
+
+.vector1{
+  position: absolute;
+  bottom: 306px;
+  left: 70px;
+  transform: rotate(277deg);
+}
+
+.vector2{
+  position: absolute;
+  top: 264px;
+  left: -12px;
+  transform: rotate(0deg);
+}
+
+.vector3{
+  position: absolute;
+  bottom: 336px;
+  right: 146px;
+  transform: rotate(148deg);
+}
+
+.stat-card{
+  text-align: center;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 177.9%; /* 115.635px */
+  letter-spacing: 0.65px;
+}
+
+.stat-card p{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 177.9%; /* 28.464px */
+  letter-spacing: 0.16px;
+}
+
+.lorem-rectangle{
+  padding: 0 120px;
+  margin-bottom: 50px;
+}
+
+.lorem-rectangle h4{
+  color: #000;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 177.9%; /* 64.044px */
+  letter-spacing: 0.36px;
+  margin-bottom: 64px;
+}
+
+.rectangle-cards{
+  display: flex;
+  justify-content: space-between;
+}
+
+.rectangle-card{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.card-par{
+  width: 333px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 177.9%; /* 40.917px */
+  letter-spacing: 0.23px;
+}
+
+.last{
+  width: 333px;
+  color: #424242;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 210.9%; /* 33.744px */
+  letter-spacing: 0.16px;
+}
+
+.rectangle-card img{
+  width: 333px;
+}
+
+.email-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  padding: 148px 360px;
+  background: #E8F4FA;
+  position: relative;
+  margin-top: 86px;
+}
+
+.email-list p{
+  width: 516px;
+  color: #252525;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 170%; /* 51px */
+}
+
+.email-list form{
+  display: flex;
+  gap: 14px;
+}
+
+.email-list form input{
+  color: #787878;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%; /* 27.2px */
+  padding-left: 36px;
+  width: 532px;
+  border-radius: 10px;
+  background: #FFF;
+  border: none;
+  box-shadow: 0px 4px 84px 0px rgba(0, 0, 0, 0.07);
+}
+
+.email-list form button{
+  cursor: pointer;
+  padding: 20px 44px;
+  border: none;
+  border-radius: 10px;
+  background: #000;
+  color: #FFF4F4;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%; /* 27.2px */
+}
+
+.star1{
+  top: -44px;
+  left: 167px;
+  position: absolute;
+}
+
+.email-list img:last-child{
+  top: 94px;
+  right: 397px;
+  position: absolute;
+}
