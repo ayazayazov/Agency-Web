@@ -1,0 +1,217 @@
+.map{
+    padding: 90px 134px;
+}
+
+.map-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.map-text{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+}
+
+.beverly{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 77px;
+    height: 77px;
+    border-radius: 38.5px;
+    background-color: #F5F3DA;
+}
+
+.beverly img{
+    width: 56px;
+    height: 56px;
+}
+
+.map-text h1{
+    color: #000;
+    font-family: Poppins;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 170%; /* 76.5px */
+}
+
+.map-text p{
+    width: 437px;
+    color: #777;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 189.5%; /* 37.9px */
+}
+
+.ellipse-lg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 250px;
+    top: 325px;
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: rgba(255, 0, 0, 0.12);;
+}
+
+.map-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.map-socials{
+    margin-right: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 189.5%; /* 30.32px */
+}
+
+.tel-box{
+    border-left: solid #C2C2C2;
+    border-right: solid #C2C2C2;
+    display: flex;
+    align-items: center;
+}
+
+.tel-num{
+    display: flex;
+    gap: 25px;
+    margin: 0 105px;
+    color: #333;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.location{
+    width: 364px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #333;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.say-hello{
+    height: 742px;
+    padding: 54px 385px 64px 385px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #E8F4FA;
+}
+
+.say-hello-title{
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.say-hello-title h2{
+    color: #000;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 189.5%; /* 56.85px */
+}
+
+.say-hello-title p{
+    color: #777;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 189.5%; /* 24.635px */
+}
+
+.hello-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+}
+
+.name input{
+    width: 320px;
+    height: 56px;
+    border: none;
+    border-radius: 9px;
+    background: #FFF;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.input-email{
+    width: 671px;
+    height: 56px;
+    border: none;
+    border-radius: 9px;
+    background: #FFF;
+}
+
+.input-message{
+    width: 671px;
+    height: 232px;
+    border: none;
+    border-radius: 9px;
+    background: #FFF;
+}
+
+.hello-form label{
+    color: #4F4F4F;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 175.4%; /* 24.556px */
+    letter-spacing: -0.3px;
+}
+
+.say-hello button{
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    bottom: -110px;
+    padding: 10px 48px;
+    border: none;
+    border-radius: 10px;
+    background: #1090CB;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 204.3%; /* 32.688px */
+}
