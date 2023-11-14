@@ -23,7 +23,7 @@
     width: 77px;
     height: 77px;
     border-radius: 38.5px;
-    background-color: #F5F3DA;
+    background-color: var(--Yellow000);
 }
 
 .beverly img{
@@ -32,7 +32,7 @@
 }
 
 .map-text h1{
-    color: #000;
+    color: var(--textBlack);
     font-family: Poppins;
     font-size: 45px;
     font-style: normal;
@@ -42,7 +42,7 @@
 
 .map-text p{
     width: 437px;
-    color: #777;
+    color: var(--Grey300);
     font-family: Poppins;
     font-size: 20px;
     font-style: normal;
@@ -59,8 +59,31 @@
     top: 325px;
     width: 48px;
     height: 48px;
+}
+
+.ellipse-lg::after{
+    position: absolute;
+    content: "";
+    width: 48px;
+    height: 48px;
     border-radius: 24px;
-    background-color: rgba(255, 0, 0, 0.12);;
+    background-color: var(--Red000);
+    animation-duration: 1.7s;
+    animation-iteration-count: infinite;
+    animation-name: ellipse-animation;
+}
+
+@keyframes ellipse-animation {
+    from{
+        transform: scale(0);
+    }
+    50%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
 }
 
 .map-bottom{
@@ -73,7 +96,7 @@
     display: flex;
     flex-direction: column;
     gap: 18px;
-    color: #000;
+    color: var(--textBlack);
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
@@ -82,8 +105,8 @@
 }
 
 .tel-box{
-    border-left: solid #C2C2C2;
-    border-right: solid #C2C2C2;
+    border-left: solid var(--Grey302);
+    border-right: solid var(--Grey302);
     display: flex;
     align-items: center;
 }
@@ -92,7 +115,7 @@
     display: flex;
     gap: 25px;
     margin: 0 105px;
-    color: #333;
+    color: var(--Grey301);
     font-family: Poppins;
     font-size: 20px;
     font-style: normal;
@@ -105,7 +128,7 @@
     display: flex;
     align-items: center;
     gap: 20px;
-    color: #333;
+    color: var(--Grey301);
     font-family: Poppins;
     font-size: 20px;
     font-style: normal;
@@ -119,7 +142,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: #E8F4FA;
+    background: var(--White101);
 }
 
 .say-hello-title{
@@ -128,7 +151,7 @@
 }
 
 .say-hello-title h2{
-    color: #000;
+    color: var(--textBlack);
     font-family: Poppins;
     font-size: 30px;
     font-style: normal;
@@ -137,7 +160,7 @@
 }
 
 .say-hello-title p{
-    color: #777;
+    color: var(--Grey300);
     text-align: center;
     font-family: Poppins;
     font-size: 13px;
@@ -164,7 +187,7 @@
     height: 56px;
     border: none;
     border-radius: 9px;
-    background: #FFF;
+    background: var(--White100);
 }
 
 .inputs{
@@ -178,7 +201,7 @@
     height: 56px;
     border: none;
     border-radius: 9px;
-    background: #FFF;
+    background: var(--White100);
 }
 
 .input-message{
@@ -186,11 +209,11 @@
     height: 232px;
     border: none;
     border-radius: 9px;
-    background: #FFF;
+    background: var(--White100);
 }
 
 .hello-form label{
-    color: #4F4F4F;
+    color: var(--Grey203);
     font-family: Poppins;
     font-size: 14px;
     font-style: normal;
@@ -207,8 +230,8 @@
     padding: 10px 48px;
     border: none;
     border-radius: 10px;
-    background: #1090CB;
-    color: #FFF;
+    background: var(--mainBlue);
+    color: var(--White100);
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
